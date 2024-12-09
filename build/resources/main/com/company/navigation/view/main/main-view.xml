@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mainView xmlns="http://jmix.io/schema/flowui/main-view"
+          title="msg://MainView.title">
+    <actions>
+        <action id="logout" type="logout"/>
+    </actions>
+    <appLayout>
+        <navigationBar>
+            <header id="header" classNames="jmix-main-view-header">
+                <drawerToggle id="drawerToggle"
+                              classNames="jmix-main-view-drawer-toggle"
+                              themeNames="contrast"
+                              ariaLabel="msg://drawerToggle.ariaLabel"/>
+                <h1 id="viewTitle" classNames="jmix-main-view-title"/>
+            </header>
+        </navigationBar>
+        <drawerLayout>
+            <section id="section" classNames="jmix-main-view-section">
+                <h2 id="applicationTitle"
+                    classNames="jmix-main-view-application-title">
+                    <anchor id="baseLink"
+                            href="."
+                            text="msg://applicationTitle.text"
+                            classNames="jmix-main-view-application-title-base-link"/>
+                </h2>
+                <nav id="navigation"
+                     classNames="jmix-main-view-navigation"
+                     ariaLabel="msg://navigation.ariaLabel">
+                    <listMenu id="menu"/>
+                </nav>
+                <footer id="footer" classNames="jmix-main-view-footer">
+                    <userIndicator id="userIndicator"/>
+                    <button id="logoutButton"
+                            action="logout"
+                            classNames="jmix-logout-button"/>
+                </footer>
+            </section>
+        </drawerLayout>
+        <initialLayout>
+            <vbox padding="false" maxWidth="41em">©
+                <h2 text="Welcome to Dashboard"/>
+                <span text="You can use the tiles below to navigate the app"/>
+            </vbox>
+            <div classNames="overview-main-layout" width="100%">
+                <vbox padding="false">
+                    <image resource="icons/line-series.png" width="100%"/>
+                    <h4 text="Line Series"/>
+                    <flexLayout contentAlignment="START" flexDirection="ROW" justifyContent="START"
+                                flexWrap="WRAP" classNames="gap-s">
+                        <anchor text="simple" themeNames="badge pill" classNames="overview-tag-grey"
+                                href="simple-line-series"/>
+                        <anchor text="stacked" themeNames="badge pill" classNames="overview-tag-grey"
+                                href="stacked-area-series"/>
+                    </flexLayout>
+                </vbox>
+                <vbox padding="false">
+                    <image resource="icons/bar-series.png" width="100%"/>
+                    <h4 text="Bar series"/>
+                    <flexLayout contentAlignment="START" flexDirection="ROW" justifyContent="START"
+                                flexWrap="WRAP" classNames="gap-s">
+                        <anchor text="simple" themeNames="badge pill" classNames="overview-tag-blue"
+                                href="simple-bar-series"/>
+                        <anchor text="stacked" themeNames="badge pill" classNames="overview-tag-blue"
+                                href="stacked-bar-series"/>
+                    </flexLayout>
+                </vbox>
+                <vbox padding="false">
+                    <image resource="icons/pie-series.png" width="100%"/>
+                    <h4 text="Pie series"/>
+                    <flexLayout contentAlignment="START" flexDirection="ROW" justifyContent="START"
+                                flexWrap="WRAP" classNames="gap-s">
+                        <span id="simplePieSpan" text="simple" themeNames="badge pill" classNames="overview-tag-green"
+                              css="cursor: pointer;"/>
+                        <span id="donutPieSpan" text="donut" themeNames="badge pill" classNames="overview-tag-green"
+                              css="cursor: pointer;"/>
+                    </flexLayout>
+                </vbox>
+            </div>
+        </initialLayout>
+    </appLayout>
+</mainView>

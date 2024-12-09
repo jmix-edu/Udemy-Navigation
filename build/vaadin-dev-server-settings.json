@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/frontend/generated/jar-resources",
+  "staticOutput": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/dev-bundle/config",
+  "jarResourcesFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/frontend/generated/jar-resources",
+  "themeName": "Navigation",
+  "clientServiceWorkerSource": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}

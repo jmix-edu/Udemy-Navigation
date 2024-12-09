@@ -1,0 +1,17 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation",
+  "node.version": "v20.14.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/frontend",
+  "connect.javaSourceFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/src/main/java",
+  "javaResourceFolder": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/src/main/resources",
+  "connect.applicationProperties": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/src/main/resources/application.properties",
+  "connect.openApiFile": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/build/generated-resources/openapi.json",
+  "project.frontend.generated": "/Users/admin/IdeaProjects/Edu-Udemy/Udemy-Navigation/frontend/generated",
+  "pnpm.enable": false,
+  "bun.enable": false,
+  "require.home.node": false,
+  "build.folder": "build"
+}
